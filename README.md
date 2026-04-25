@@ -1,4 +1,6 @@
 **Air-Gap Side-Channel Exfiltration Project**
+
+
 **1. Overview**
 This project demonstrates a Side-Channel Attack on a physically isolated (air-gapped) computer. It proves that sensitive data can be "leaked" via electromagnetic emanations. By using a Python-based malware simulation to toggle CPU states, we create On-Off Keying (OOK) modulated radio signals that are intercepted and decoded using Software-Defined Radio (SDR) principles.
 
